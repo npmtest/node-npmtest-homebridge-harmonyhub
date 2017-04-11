@@ -1,1 +1,40 @@
-{     "devDependencies": {         "homebridge-harmonyhub": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-homebridge-harmonyhub",     "homepage": "https://github.com/npmtest/node-npmtest-homebridge-harmonyhub",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-homebridge-harmonyhub.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [homebridge-harmonyhub (v0.2.0)](https://github.com/kraigm/homebridge-harmonyhub#readme) [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-harmonyhub.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-harmonyhub) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "homebridge-harmonyhub": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-homebridge-harmonyhub",
+    "keywords": [
+        "coverage",
+        "test",
+        "homebridge-harmonyhub"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_homebridge_harmonyhub.js",
+    "name": "npmtest-homebridge-harmonyhub",
+    "nameAlias": "npmtest_homebridge_harmonyhub",
+    "nameOriginal": "npmtest-homebridge-harmonyhub",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-homebridge-harmonyhub.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
