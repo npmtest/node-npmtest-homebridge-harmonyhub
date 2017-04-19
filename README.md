@@ -1,7 +1,10 @@
-# test coverage for  [homebridge-harmonyhub (v0.2.0)](https://github.com/kraigm/homebridge-harmonyhub#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-harmonyhub.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-harmonyhub) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub)
+# npmtest-homebridge-harmonyhub
+
+#### test coverage for  [homebridge-harmonyhub (v0.2.0)](https://github.com/kraigm/homebridge-harmonyhub#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-harmonyhub.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-harmonyhub) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-harmonyhub)
+
 #### Logitech Harmony Hub plugin for HomeBridge
 
-[![NPM](https://nodei.co/npm/homebridge-harmonyhub.png?downloads=true)](https://www.npmjs.com/package/homebridge-harmonyhub)
+[![NPM](https://nodei.co/npm/homebridge-harmonyhub.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-harmonyhub)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-homebridge-harmonyhub/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-homebridge-harmonyhub/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-homebridge-harmonyhub%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-homebridge-harmonyhub%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.html](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-homebridge-harmonyhub/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-homebridge-harmonyhub/build/screenCapture.npmPackageListing.svg)
 
@@ -57,14 +66,12 @@
     "license": "ISC",
     "maintainers": [
         {
-            "name": "kraigm",
-            "email": "kraigm@enferra.com"
+            "name": "kraigm"
         }
     ],
     "name": "homebridge-harmonyhub",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/kraigm/homebridge-harmonyhub.git"
